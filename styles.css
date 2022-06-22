@@ -1,0 +1,137 @@
+body{
+    background: linear-gradient(to right, #ff0000, #0000ff);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+}
+header{
+    text-align: center;
+    margin: 1em;
+}
+h1{
+    font-size: 4.5rem;
+    margin: 10% 0 0 0;
+    padding: 0;
+}
+
+.player-box{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    max-width: 1000px;
+    margin: 10% auto 0 auto;
+}
+.player1-name-box{
+    border: 1rem rgb(255, 0, 0) groove;
+    box-shadow: -6px -6px 4px #000;
+    height: 2rem;
+    border-radius: 5px;
+}
+.player2-name-box{
+    border: 1rem rgb(0, 0, 255) groove;
+    box-shadow: 6px -6px 4px #000;
+    height: 2rem;
+    border-radius: 5px;
+}
+.score{
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: rgb(167, 0, 0);
+
+}
+
+.player-score{
+    border-style: groove;
+    border-color: rgb(212, 28, 28);
+    border-top: none;
+    border-right: none;
+    margin-top: 0;
+    width:25%;
+    padding: 0.15rem .3rem;
+    font-size: 3rem;
+}
+
+.dice-box{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.dice{
+    display: flex;
+    flex-direction: column;
+
+}
+.dice-btn{
+    border: none;
+    border-radius: 5px;
+    padding: 1.5rem 2.5rem;
+    box-shadow: 0px 6px 4px #000;
+    margin: .5rem;
+    background: linear-gradient(to right, #ff0000, #0000ff);
+    color: white;
+    font-size: 1.5rem;
+}
+.reset-btn{
+    border: none;
+    border-radius: 5px;
+    padding: 1.5rem 2.5rem;
+    box-shadow: 0px 6px 4px #000;
+    margin: .5rem;
+    background: linear-gradient(to right, #ff0000, #0000ff);
+    color: white;
+    font-size: 1.5rem;
+    display: none;
+}
+.dice-title{
+    font-size: 1.5rem;
+    margin: 1rem auto 3rem auto;
+    padding: 0;
+    color: white;
+    text-shadow: 2px 1px 2px #000;
+}
+
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.modal-content h2{
+    font-size: 2.5rem;
+    margin: 1rem 0 0 0;
+    padding: 0;
+}
+.modal-content p{
+    font-size: 1.5rem;
+    margin: 2.5rem 0;
+    padding: 0;
+    color: white;
+    text-shadow: 2px 1px 2px #000;
+}
+.odd-btn, .even-btn{
+    border: none;
+    border-radius: 5px;
+    padding: 1.5rem 2.5rem;
+    box-shadow: 0px 6px 4px #000;
+    margin: .5rem;
+    background: linear-gradient(to right, #ff0000, #0000ff);
+    color: white;
+    font-size: 1.5rem;
+}
+
+.modal-btns{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem auto;
+}
